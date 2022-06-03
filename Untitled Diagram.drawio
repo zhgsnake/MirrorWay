@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-03T14:16:29.799Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="s4W2PJzStkJS0TycDcyl" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-03T14:53:52.792Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="xJcM3zFnOxAZoDIivK0o" version="19.0.0" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -77,6 +77,80 @@
         </mxCell>
         <mxCell id="JyxEKZqlSpqKJdJgQS-E-59" value="更新质押信息" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;arcSize=14;strokeWidth=2;labelBackgroundColor=default;labelBorderColor=none;" vertex="1" parent="1">
           <mxGeometry x="230" y="440" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-61" value="" style="html=1;labelBackgroundColor=default;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="780" y="580" width="215" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-62" value="" style="html=1;labelBackgroundColor=default;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="580" width="400" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-63" value="" style="html=1;labelBackgroundColor=default;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="580" width="180" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JyxEKZqlSpqKJdJgQS-E-66" target="JyxEKZqlSpqKJdJgQS-E-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-65" value="提取：amount" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="JyxEKZqlSpqKJdJgQS-E-64">
+          <mxGeometry x="-0.1829" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-66" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelBackgroundColor=default;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="585" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-67" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 11px; line-height: 22px;&quot;&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 11px;&quot;&gt;StakingPoolForUniswapV2Tokens&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="300" y="540" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-68" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 11px; line-height: 22px;&quot;&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 11px;&quot;&gt;stakedToken&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="630" y="540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="JyxEKZqlSpqKJdJgQS-E-70" target="JyxEKZqlSpqKJdJgQS-E-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-70" value="withdraw" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=default;labelBorderColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="250" y="600" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="JyxEKZqlSpqKJdJgQS-E-72" target="JyxEKZqlSpqKJdJgQS-E-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-72" value="更新质押池" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=default;labelBorderColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="250" y="660" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="JyxEKZqlSpqKJdJgQS-E-78" target="JyxEKZqlSpqKJdJgQS-E-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="JyxEKZqlSpqKJdJgQS-E-78" target="JyxEKZqlSpqKJdJgQS-E-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-78" value="提取质押代币" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;arcSize=14;strokeWidth=2;labelBackgroundColor=default;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="843.13" width="100" height="36.87" as="geometry" />
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="JyxEKZqlSpqKJdJgQS-E-80" target="JyxEKZqlSpqKJdJgQS-E-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-80" value="提取奖励" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;arcSize=14;strokeWidth=2;labelBackgroundColor=default;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="908.12" width="100" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-81" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 11px; line-height: 22px;&quot;&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 11px;&quot;&gt;looksRareToken&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="812.5" y="540" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-82" value="from:流动性合约&lt;br style=&quot;font-size: 10px;&quot;&gt;to:msg.sender&lt;br&gt;value:&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 10px;&quot;&gt;pendingRewards&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=10;rounded=1;arcSize=14;strokeWidth=2;labelBackgroundColor=default;labelBorderColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="806.25" y="899.99" width="162.5" height="53.75" as="geometry" />
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-83" value="from:流动性合约&lt;br style=&quot;font-size: 10px;&quot;&gt;to:msg.sender&lt;br style=&quot;font-size: 10px;&quot;&gt;value:&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;amount&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=10;rounded=1;arcSize=14;strokeWidth=2;labelBackgroundColor=default;labelBorderColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="635" y="834.6899999999999" width="115" height="53.75" as="geometry" />
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="JyxEKZqlSpqKJdJgQS-E-84" target="JyxEKZqlSpqKJdJgQS-E-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-84" value="更新质押信息" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;arcSize=14;strokeWidth=2;labelBackgroundColor=default;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="775.62" width="100" height="34.38" as="geometry" />
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="JyxEKZqlSpqKJdJgQS-E-85" target="JyxEKZqlSpqKJdJgQS-E-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JyxEKZqlSpqKJdJgQS-E-85" value="计算获得的奖励" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;arcSize=14;strokeWidth=2;labelBackgroundColor=default;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="715.62" width="100" height="34.38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
